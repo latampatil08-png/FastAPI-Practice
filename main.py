@@ -11,3 +11,8 @@ def get_exams():
     return {
         "exams": ["SSC CGL", "UPSC", "RRB NTPC"]
     }
+@app.get("/students")
+def get_students():
+    return {
+        "students": ["Lata", "Priya", "Anu"]
+    }
